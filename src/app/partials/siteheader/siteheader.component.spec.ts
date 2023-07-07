@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SiteheaderComponent } from './siteheader.component';
+import { SiteHeaderComponent } from './siteheader.component';
 
 describe('SiteheaderComponent', () => {
   let component: SiteheaderComponent;

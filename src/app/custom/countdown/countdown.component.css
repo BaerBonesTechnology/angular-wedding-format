@@ -1,0 +1,11 @@
+.countdown {
+    @apply flex flex-row text-6xl font-bold space-x-4 font-primary justify-center;
+}
+
+.countdown_item {
+    @apply flex flex-col justify-center items-center;
+}
+
+.countdown_item .countdown_item_number {
+    @apply text-9xl font-bold font-display;
+}

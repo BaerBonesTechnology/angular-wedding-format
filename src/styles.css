@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
+
+.content {
+    @apply min-h-screen w-screen flex flex-col justify-center items-center text-center;
+}
+
+.admin_button{
+    @apply no-underline;
+}
+
+body{
+    @apply font-primary;
+}
+
+footer {
+    @apply justify-center items-center text-center bg-slate-600 text-white font-display;
+}
+
+footer a{
+    @apply text-white no-underline;
+}

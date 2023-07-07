@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SiteheaderComponent } from './partials/siteheader/siteheader.component';
+import { SiteHeaderComponent} from './partials/siteheader/siteheader.component';
 import { NavbarComponent } from './partials/navbar/navbar.component';
 import { FooterComponent } from './partials/footer/footer.component';
 import { HomeComponent } from './home/home.component';
@@ -15,11 +15,13 @@ import { PostsComponent } from './blog/posts/posts.component';
 import { NotfoundComponent as NotFoundComponent } from './notfound/notfound.component';
 import { LoginComponent } from './login/login.component';
 import { AdminScreenComponent } from './admin.screen/admin.screen.component';
+import { BlogListObjectComponent } from './blog.list.object/blog.list.object.component';
+import { CountdownComponent } from './custom/countdown/countdown.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SiteheaderComponent,
+    SiteHeaderComponent,
     NavbarComponent,
     FooterComponent,
     HomeComponent,
@@ -31,6 +33,8 @@ import { AdminScreenComponent } from './admin.screen/admin.screen.component';
     NotFoundComponent,
     LoginComponent,
     AdminScreenComponent,
+    BlogListObjectComponent,
+    CountdownComponent,
   ],
   imports: [
     BrowserModule,

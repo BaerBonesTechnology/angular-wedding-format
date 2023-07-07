@@ -1,0 +1,7 @@
+.navigation-container{
+    @apply flex w-screen justify-center items-center;
+}
+
+.navigation-container a {
+    @apply grow text-2xl font-bold text-black no-underline text-center py-4 hover:bg-gray-100 font-primary;
+}
