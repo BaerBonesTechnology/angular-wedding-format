@@ -54,7 +54,7 @@ To change the date of the countdown timer, navigate to the *src/app/components/c
 
 #### Names
 
-To change the names of the couple, navigate to the *src/main.ts* file and change the names in the following line of code:
+To change the names of the couple, navigate to the *src/partials/siteheader.component.ts* file and change the names in the following line of code:
 
 ```javascript
 // src/partials/siteheader.component.ts
