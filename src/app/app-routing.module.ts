@@ -17,9 +17,9 @@ const routes: Routes = [
   { path: 'rsvp', component: RsvpComponent },
   { path: 'registry', component: RegistryComponent },
   { path: 'story', component: StoryComponent },
-  { path: '404', component: NotfoundComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'admin/:userId', component: AdminScreenComponent }
+  { path: 'admin/:userId', component: AdminScreenComponent },
+  { path: '**', component: NotfoundComponent }
 ];
 
 @NgModule({
