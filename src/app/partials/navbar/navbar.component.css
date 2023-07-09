@@ -5,3 +5,7 @@
 .navigation-container a {
     @apply grow text-2xl font-bold text-black no-underline text-center py-4 hover:bg-gray-100 font-primary;
 }
+
+.navigation-container a ::after{
+    @apply bg-gray-100;
+}

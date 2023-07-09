@@ -1,3 +1,15 @@
-.footer{
-    @apply w-screen bg-blue-500;
+.admin_button{
+    @apply no-underline;
+}
+
+body{
+    @apply font-primary;
+}
+
+footer {
+    @apply text-center text-white font-display bg-blue-500;
+}
+
+footer a{
+    @apply text-white no-underline;
 }
